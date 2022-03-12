@@ -1,0 +1,213 @@
+
+/*  HEADER CSS WALKTHROUGH  */
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  font-family: Comfortaa;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: Comfortaa;
+}
+
+nav {
+  font-family: Comfortaa;
+  font-weight: 400;
+  letter-spacing: .05em;
+  padding: 25px;
+}
+
+h1, .top-nav {
+  text-align: center;
+  font-family: Comfortaa;
+}
+
+.top-nav, .top-nav li {
+  width: 100%;
+
+}
+
+h1 a, .top-nav a {
+  color: #000;
+}
+top-nav {
+  margin-top: 30px;
+}
+
+.top-nav li {
+  padding: 10px 0;
+  margin: 5px auto;
+  background-color: #fff;
+
+}
+
+h1 {
+  font-family: Roboto
+}
+
+
+.top-nav a {
+  text-transform: uppercase;
+  color: black;
+}
+
+.wrapper {
+
+  flex-direction: row-reverse;
+}
+@media (min-width: 768px) {
+  .top-nav {
+    margin-top: 0;
+    display: none;
+  }
+}
+  .top-nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    background-color: transparent;
+
+  }
+
+  .top-nav li:last-child {
+    margin-right: 0;
+  }
+
+  .top-nav a {
+
+  }
+  @media (min-width: 1024px) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+    .top-nav,
+  .top-nav li {
+    width: initial;
+    margin-bottom: 0;
+  }
+
+
+/*  PORTFOLIO CSS WALKTHROUGH  */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  flex-direction: row;
+}
+
+.col {
+  margin: 10px;
+  min-height: 250px;
+  color: Black;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+.box-1 {
+  background-color: #white;
+}
+
+.box-2 {
+  background-color: #white;
+}
+
+.box-3 {
+  background-color: #white;
+}
+
+.box-4 {
+  background-color: #white;
+}
+
+.box-5 {
+  background-color: #white;
+}
+
+.box-6 {
+  background-color: #white;
+}
+
+h3 {
+  :'Roboto', sans-serif;
+}
+
+.wrapper p {
+  text-align: center;
+  color: grey;
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+.col {
+    flex-basis: calc(50% - 20px);
+  }
+  @media (min-width: 1024px) {
+    .col {
+      flex-basis: calc(33.333% - 20px);
+    }
+  }
+
+/*  FOOTER CSS WALKTHROUGH  */
+
+
+html, body {
+  height: 100%;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 0 20px;
+  height: 100px;
+  font-family: Comfortaa
+}
+
+.full {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .top {
+    display: none;
+  }
+}
+  .full {
+    display: inline-block;
+    margin-left: 20px;
+  }
