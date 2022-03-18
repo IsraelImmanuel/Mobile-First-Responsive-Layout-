@@ -7,6 +7,11 @@
   font-family: Comfortaa;
 }
 
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -22,7 +27,7 @@ nav {
   font-weight: 400;
   letter-spacing: .05em;
   padding: 25px;
-  background-color: #829356;
+  background-color: none;
 }
 
 h1, .top-nav {
@@ -48,6 +53,7 @@ top-nav {
   margin: 5px auto;
   background-color: #fff;
 
+
 }
 
 h1 {
@@ -63,10 +69,14 @@ h1 {
 @media (min-width: 768px) {
   .top-nav {
     margin-top: 0;
-  }
-}
-  .top-nav li {
+    }
+  .wrapper {
     display: flex;
+    }
+  }
+
+  .top-nav li {
+    display: inline-block;
     width: auto;
     margin-right: 15px;
     background-color: transparent;
@@ -90,6 +100,10 @@ h1 {
     margin-bottom: 0;
   }
 
+.wrapper p {
+  font-size: 20px;
+  padding: 15px;
+}
 
 /*  PORTFOLIO CSS WALKTHROUGH  */
 
@@ -140,7 +154,6 @@ h1 {
 .box-6 {
 
 }
-
 h3 {
   font-family: Comfortaa
 }
@@ -176,7 +189,7 @@ html, body {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  visibility: hidden;
+
 
 }
 
