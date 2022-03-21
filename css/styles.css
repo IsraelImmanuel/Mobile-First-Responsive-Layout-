@@ -234,7 +234,7 @@ h1 {
   .wrapper img {
   }
   .box-1 img, p {
-  
+
   }
 
   .box-2 img, p {
@@ -277,9 +277,9 @@ h1 {
     width: 400px;
     }
 
-     #profile {
-      display: flex;
-      flex-direction: row;
+     #profile  {
+      flex-direction: column-reverse;
+
     }
 
   .top-nav,
