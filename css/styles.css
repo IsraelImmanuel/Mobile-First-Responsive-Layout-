@@ -62,7 +62,7 @@ h1 a, .top-nav a {
   color: grey;
 }
 
-.wrapper img {
+.profile img {
   max-width: 100%;
   margin: 20px;
   padding-right: 40px;
@@ -70,7 +70,9 @@ h1 a, .top-nav a {
 
 }
 
-}
+.profile p {
+    text-align: center;
+  }
 /* portfolio */
 
 .container {
@@ -193,6 +195,8 @@ h1 {
   .container {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 70px;
+
   }
   .col {
     flex-basis: calc(50% - 20px);
@@ -231,31 +235,76 @@ h1 {
       display: inline-block;
       margin-left: 20px;
   }
-  .wrapper img {
-  }
-  .box-1 img, p {
 
-  }
+   p {
+     font-size: 15px;
+   }
 
-  .box-2 img, p {
-
-  }
-
-  .box-3 img, p {
-
+  .box-1 p {
+    margin: 5px;
+    padding: 5px
   }
 
-  .box-4 img, p {
+  .box-2 p {
+    margin: 5px;
+    padding: 5px
+  }
+
+  .box-3  {
+    margin: 5px;
+    padding: 5px
+  }
+
+  .box-4 {
+    margin: 5px;
+    padding: 5px
+  }
+
+  .box-5  {
 
   }
 
-  .box-5 img, p {
+  .box-6  {
+
+  }
+  #contact {
+    margin-right: 87.5px;
+  }
+
+  .footer-nav {
+    margin-right: 110px;
+  }
+
+  .top-nav {
+    margin-right: 100px;
+  }
+
+  #profile img {
+    max-width: 100%;
 
   }
 
-  .box-6 img, p {
-
+  #profile p {
+    font-size: 15px;
+    margin-top: 40px;
   }
+
+
+  .profile {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1em;
+  }
+  .profile p {
+    text-align: left;
+    color: grey;
+  }
+
+  .profile img {
+    max-width: 30px;
+  }
+
+
 }
 
 @media (min-width: 1024px) {
@@ -266,34 +315,23 @@ h1 {
     align-items: center;
   }
 
-
-    .wrapper p {
-    font-size: 20px;
-    padding: 15px;
-
+  .profile {
+    display: flex;
+    flex-direction: row-reverse;
   }
-
-  .wrapper img {
-    width: 400px;
-    }
-
-     #profile  {
-      flex-direction: column-reverse;
-
-    }
 
   .top-nav,
   .top-nav li {
     width: initial;
     margin-bottom: 0;
   }
+  .col {
+    flex-basis: calc(33.333% - 20px);
+  }
 
   #contact p {
     text-align: center;
-    flex-direction: column;
   }
 
-    .col {
-      flex-basis: calc(33.333% - 20px);
-    }
+
 }
